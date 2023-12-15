@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import Users from '@/components/Users'
+import Users from '@/src/components/Users'
 
 async function fetchUsers(){
   const res = await fetch("https://reqres.in/api/users")
